@@ -1,5 +1,9 @@
 # PathMark – File Path Marker
 
+[![GitHub Release](https://img.shields.io/github/v/release/cxage/pathmark)](https://github.com/cxage/pathmark/releases/latest)
+[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=CXAGE.pathmark)
+[![Version](https://img.shields.io/badge/version-0.1.0-green)](https://github.com/cxage/pathmark/releases/tag/v0.1.0)
+
 > **PathMark** is a lightweight VS Code extension that maintains consistent project-relative file-path markers at the beginning of supported source files.
 
 It identifies each file's location within your project and keeps that path directly inside the file as a comment.

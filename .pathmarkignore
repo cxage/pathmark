@@ -1,0 +1,23 @@
+# GitHub configuration
+.github
+
+# Project documentation
+README.md
+CHANGELOG.md
+LICENSE
+PRIVACY.md
+SUPPORT.md
+
+# Repository configuration
+.gitignore
+.vscodeignore
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Package and build configuration
+package.json
+tsconfig.json
+
+# Generated packages and temporary files
+*.vsix
+temp.md
