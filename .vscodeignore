@@ -1,0 +1,34 @@
+
+# Development configuration
+.vscode/**
+.git/**
+.gitignore
+.vscodeignore
+.github/**
+
+# Node.js development dependencies
+node_modules/**
+
+# TypeScript development files
+extension.ts
+tsconfig.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Development and test projects
+TestProject/**
+testdata/**
+README-internal.md
+_docs/**
+temp.md
+
+
+# Build and temporary files
+*.vsix
+**/*.map
+**/*.log
+**/*.tsbuildinfo
+
+# Operating system files
+.DS_Store
+Thumbs.db

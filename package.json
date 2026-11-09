@@ -1,0 +1,63 @@
+{
+  "name": "pathmark",
+  "displayName": "PathMark - File Path Marker",
+  "description": "A free VS Code extension by CXAGE for maintaining consistent project-relative file-path markers.",
+  "version": "0.1.0",
+  "publisher": "CXAGE",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/cxage/pathmark#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cxage/pathmark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cxage/pathmark/issues"
+  },
+  "icon": "resources/images/icon.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "keywords": [
+    "pathmark",
+    "pathmarker",
+    "file markers",
+    "file path markers",
+    "source code",
+    "project paths",
+    "code maintenance",
+    "file path generator",
+    "code organization"
+  ],
+  "main": "./out/extension.js",
+  "extensionKind": [
+    "ui"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "pathmark.check",
+        "title": "PathMark: Check Workspace"
+      },
+      {
+        "command": "pathmark.run",
+        "title": "PathMark: Apply Changes"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc --watch -p ./",
+    "vscode:prepublish": "pnpm run compile",
+    "package": "pnpm exec vsce package --allow-missing-repository"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/vscode": "1.90.0",
+    "@vscode/vsce": "^4.1.0",
+    "typescript": "^5.9.3"
+  }
+}
